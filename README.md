@@ -1,6 +1,5 @@
-# Iris Flower Classification
-[![PEP8](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://www.python.org/dev/peps/pep-0008/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/Vaaceph/iris-flower-classification/blob/master/LICENSE.md)  </br></br>
+# Iris Flower Classification and Exposing random forest machine learning service as an API
+
 Building machine learning random forest model to predict type of the flower in IRIS data and using flask to expose it as an API
 
 Dataset:
@@ -30,6 +29,10 @@ docker build -t apache-flask .
 ```bash
 docker run -d -p 8000:8000 apache-flask
 ```
+
+Access API
+
+localhost/8000/apidocs
 
 
 
