@@ -32,8 +32,9 @@ docker run -d -p 8000:8000 apache-flask
 
 Access API
 
+```bash
 localhost/8000/apidocs
-
+```
 
 
 
