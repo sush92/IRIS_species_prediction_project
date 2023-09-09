@@ -1,4 +1,4 @@
-# Iris Flower Classification and Exposing random forest machine learning service as an API
+# Iris flower classification and Exposing random forest machine learning service as an API
 
 Building machine learning random forest model to predict type of the flower in IRIS data and using flask to expose it as an API
 
